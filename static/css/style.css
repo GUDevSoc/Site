@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size:18px;
+    font-weight: 300;
+}
+
+.content{
+  margin:40px auto;
+  max-width:800px;
+  line-height:1.6;
+  color:#444;
+  padding:20px 40px;
+}
+
+.player{
+  max-width:1000px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,h2,h3{
+  line-height:1.2;
+  font-weight: 400;
+}
+
+.navbar, .dropdown-menu, #navbar{
+	background-color: #7893C2;
+	z-index: 20;
+}
+
+.dropdown-header {
+    color: #333;
+}
+
+.navbar {
+    border-bottom-width:0px;
+}
+
+nav {
+    max-height: 50px;
+    min-height:25px;
+}
+
+.navbar a {
+   color:white !important;
+}
+
+.nav > li:hover, .nav > .active {
+    background-color: #ddd !important;
+    color:black !important;
+
+}
+
+.nav > li > a:hover, .nav > .active > a, .dropdown-menu > li > a:hover{
+    background-color: #ddd !important;
+    color:black !important;
+}
+
+.navbar-right{    
+    height: 50px !important;
+
+}
+.navbar-right > li{
+    height: 100% !important;
+}
+
+.navbar-right > li > a {
+  padding-bottom:0px;
+  padding-top:10px;
+  height:100%;
+  text-align: center;
+}
+
+.links a{
+	float: left; 
+	display: block;
+        color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}

@@ -1,0 +1,14 @@
+<li {% if page.url == '/' %} class="active"{% endif %}><a href="{{ baseurl}}/">About</a></li>
+
+<li class="{% if page.url contains 'events' %}active{% endif %} dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li class="{% if page.url == '/events/' %}active{% endif %}" ><a href="{{baseurl}}/events/">Upcoming Events</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="{% if page.url == '/events/gamejams/' %}active{% endif %}" ><a href="{{baseurl}}/events/gamejams/">Game Jams</a></li>
+    </ul>
+</li>
+<li><a href="{{ baseurl }}/projects/">Projects</a></li>
+<li><a href="{{ baseurl }}/resources/">Resources</a></li>
+<li><a href="{{ baseurl }}/contact/">Contact</a></li>
+
