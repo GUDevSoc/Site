@@ -8,31 +8,31 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ baseurl }}/">[GUDEV]</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">[GUDEV]</a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.url == '/' %} class="active"{% endif %}><a href="{{ baseurl}}/">About</a></li>
+                <li {% if page.url == '/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/">About</a></li>
 
                 <li class="{% if page.url contains '/events/' %}active{% endif %} dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="{% if page.url == '/events/' %}active{% endif %}" ><a href="{{baseurl}}/events/">Upcoming Events</a></li>
+                        <li class="{% if page.url == '/events/' %}active{% endif %}" ><a href="{{ site.baseurl }}/events/">Upcoming Events</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="{% if page.url == '/events/gamejams/' %}active{% endif %}" ><a href="{{baseurl}}/events/gamejams/">Game Jams</a></li>
+                        <li class="{% if page.url == '/events/gamejams/' %}active{% endif %}" ><a href="{{site.baseurl}}/events/gamejams/">Game Jams</a></li>
                     </ul>
                 </li>
 
-                <li class="{% if page.url contains '/projects/' %}active{% endif %}" ><a href="{{ baseurl }}/projects/">Projects</a></li>
-                <li class="{% if page.url contains '/resources/' %}active{% endif %}" ><a href="{{ baseurl }}/resources/">Resources</a></li>
-                <li class="{% if page.url contains '/contact/' %}active{% endif %}" ><a href="{{ baseurl }}/contact/">Contact</a></li>
+                <li class="{% if page.url contains '/projects/' %}active{% endif %}" ><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+                <li class="{% if page.url contains '/resources/' %}active{% endif %}" ><a href="{{ site.baseurl }}/resources/">Resources</a></li>
+                <li class="{% if page.url contains '/contact/' %}active{% endif %}" ><a href="{{ site.baseurl }}/contact/">Contact</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <!--TODO: Fix the goddamn icons-->
-                <li><a href="https://discord.gg/DhT3XgU"><img src="{{baseurl}}/static/images/discord-official.png" height="32" width="32"></a></li>
-                <li><a href="https://www.facebook.com/groups/gudev/"><img src="{{baseurl}}/static/images/facebook-official1.png" height="32" width="32"></a></li>
+                <li><a href="https://discord.gg/DhT3XgU"><img src="{{site.baseurl}}/static/images/discord-official.png" height="32" width="32"></a></li>
+                <li><a href="https://www.facebook.com/groups/gudev/"><img src="{{site.baseurl}}/static/images/facebook-official1.png" height="32" width="32"></a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
