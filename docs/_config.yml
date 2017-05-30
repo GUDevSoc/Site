@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   GUDEV is Glasgow University's Game Design and Development Society. 
   We host various events like socials and workshops on various topics, 
   as well as weekend-long gamejams to test your development skills!
-baseurl: "Site" # the subpath of your site, e.g. /blog
+baseurl: "/Site" # the subpath of your site, e.g. /blog
 url: "http://gudevsoc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none
 github_username:  none
