@@ -15,6 +15,10 @@ nav {
   padding:20px 40px;
 }
 
+.container{
+  max-width:100%;
+}
+
 .indent{
   margin-left: 20px;
 }
@@ -27,7 +31,7 @@ img {
   max-width: 100%;
 }
 
-h1 {
+h1, .btn-primary {
   margin-bottom: 20px;
 }
 h1,h2,h3,h4{
@@ -36,7 +40,7 @@ h1,h2,h3,h4{
   font-weight: 400;
 }
 
-.navbar, .dropdown-menu, #navbar{
+.navbar, .dropdown-menu, #navbar, .btn-primary{
 	background-color: #7893C2;
 	z-index: 20;
 }
