@@ -9,7 +9,7 @@ nav {
 .content{
   margin:60px auto;
   max-width:800px;
-  line-height:1.6;
+  line-height:1.4;
   font-size:18px;
   color:#444;
   padding:20px 40px;
@@ -29,6 +29,16 @@ nav {
 
 img {
   max-width: 100%;
+}
+
+.gallery-image {
+  width: 400px;
+  height: 300px;
+}
+
+.icon-image {
+  width: 32px;
+  height: 32px;
 }
 
 h1, .btn-primary {
