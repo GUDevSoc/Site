@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<h1>Events</h1>
+<h1>Upcoming Events</h1>
 <div class="container">
     {% loop_directory directory:events/planned iterator:event filter:*.html sort:ascending %}
         {% include_relative planned/{{ event }}.html %}
