@@ -2,6 +2,15 @@
 layout: base
 ---
 <h1>Events</h1>
-{% include_relative planned/screening.html %}
-<hr />
-{% include_relative planned/freshers.html %}
+<div class="container">
+    {% loop_directory directory:events/planned iterator:event filter:*.html sort:ascending %}
+        {% include_relative planned/{{ event }}.html %}
+    {% endloop_directory %}
+</div>
+
+<h1>Past Events</h1>
+<div class="container">
+    {% loop_directory directory:events/past iterator:event filter:*.html sort:descending %}
+        {% include_relative past/{{ event }}.html %}
+    {% endloop_directory %}
+</div>
