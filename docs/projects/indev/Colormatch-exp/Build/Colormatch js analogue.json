@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Colormatch js analogue.data.unityweb",
+"asmCodeUrl": "Colormatch js analogue.asm.code.unityweb",
+"asmMemoryUrl": "Colormatch js analogue.asm.memory.unityweb",
+"asmFrameworkUrl": "Colormatch js analogue.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
