@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gudevsoc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none
 github_username:  none
-
+gamecdnurl: http://xiv.moe
 # Build settings
 markdown: kramdown
 theme: minima
