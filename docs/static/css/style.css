@@ -107,3 +107,8 @@ nav {
 	font-size: 20px;
 	
 }
+
+.wrap{
+    overflow-x:wrap;
+    white-space: normal;
+}
