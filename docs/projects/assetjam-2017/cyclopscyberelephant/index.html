@@ -9,6 +9,9 @@
 <meta name="robots" content="index, follow">
 <title>Welcome to GUDEV - Glasgow University Game Development Society</title>
 
+        <link rel="stylesheet" href="TemplateData/style.css">
+        <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+        <script src="TemplateData/UnityProgress.js"></script>
         <link rel="shortcut icon" type="image/png" href="/static/images/favicon.png">
 <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="/static/css/style.css">
@@ -16,7 +19,7 @@
 
 
     </head>
-
+	
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -52,20 +55,22 @@
 
         
 
-        <div class="content">
-            <h1>October 2017 Asset Jam</h1>
-<p>During our asset jam we provided members with two basic games: a shoot-em-up and a platformer.</p>
-<p>The games had no art or sound, and we asked attendees to create these assets however they liked, and put them into the game.</p>
-<p>Here is what they came up with:</p>
+        <link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>  
+<script src="http://xiv.moe/assetjam-2017/cyclopscyberelephant/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "http://xiv.moe/assetjam-2017/cyclopscyberelephant/webbuild.json", {onProgress: UnityProgress});
+</script>
+<div class="webgl-content">
+  <div id="gameContainer" style="width: 960px; height: 600px"></div>
+  <div class="footer">
+    <div class="webgl-logo"></div>
+    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+    <div class="title">Cyclops Cyber Elephant - <a href="http://xiv.moe/assetjam-2017/cyclopscyberelephant/source.zip">Download Source</a></div>
+  </div>
+</div>
 
-<ul>
-    <li><a href="desertgame/">Desert Game</a></li>
-    <li><a href="studentcryingsimulator/">Student Crying Simulator</a></li>
-    <li><a href="cyclopscyberelephant/">Cyclops Cyber Elephant</a></li>
-    <li><a href="spacecat/">Space Cat</a></li>
-</ul>
 
-        </div>
         
         <script src="/static/js/jquery.js"></script>
 <script src="/static/js/scroll.js"></script>
@@ -73,4 +78,5 @@
 <script src="/static/js/jquery.fancybox.min.js"></script>
 
     </body>
+
 </html>
