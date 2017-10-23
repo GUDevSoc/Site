@@ -1,16 +1,33 @@
 ---
 layout: base
+permalink: /events/index.html
 ---
+
+{% capture cutoff %}{{'now' | date: '%s' | plus: 86400}}{% endcapture %}
+{% assign upcoming=false %}
 <h1>Upcoming Events</h1>
 <div class="container">
-    {% loop_directory directory:events/planned iterator:event filter:*.html sort:ascending %}
-        {% include_relative planned/{{ event }}.html %}
-    {% endloop_directory %}
+    {% for event in site.events %}
+        {% capture eventtime %}{{ event.date | date: '%s'}}{% endcapture %}
+        {% if eventtime > cutoff %}
+            {% assign upcoming=true %}
+            {{ event.output }}
+        {% endif %}
+    {% endfor %}
+    
+    {% if upcoming==false %}
+        No events planned for now.
+    {% endif %}
 </div>
 
+
+{% assign reversed_events = site.events | reverse %}
 <h1>Past Events</h1>
 <div class="container">
-    {% loop_directory directory:events/past iterator:event filter:*.html sort:descending %}
-        {% include_relative past/{{ event }}.html %}
-    {% endloop_directory %}
+    {% for event in reversed_events %}
+        {% capture eventtime %}{{ event.date | date: '%s'}}{% endcapture %}
+        {% if eventtime < cutoff %}
+            {{ event.output }}
+        {% endif %}
+    {% endfor %}
 </div>

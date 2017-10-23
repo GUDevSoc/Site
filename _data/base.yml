@@ -1,0 +1,4 @@
+resources: /resources
+events: /events
+contact: /contact
+home: {{site.baseurl}}
