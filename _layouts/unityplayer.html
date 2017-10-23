@@ -3,18 +3,7 @@
     <head>
         {% include sitemetadata.html %}
         <link rel="stylesheet" href="{{ site.staticurl }}/unity/style.css">
-        <title>{{page.title}}</title> 
-        {% if page.loader %}
-            <script src="{{ page.loader }}"></script>
-        {% else %}
-            <script src="{{ site.staticurl }}/unity/UnityProgress.js"></script>
-        {% endif %}
-        <script src="{{ site.staticurl }}/unity/UnityLoader.js"></script>
-        {% if page.build %}
-        <script>
-            var gameInstance = UnityLoader.instantiate("gameContainer", "{{ page.build }}", {onProgress: UnityProgress});
-        </script>
-        {% endif %}
+        <title>{{page.title}}</title>
         {% include sitestyles.html %}
     </head>
 	
@@ -25,28 +14,10 @@
             <h1>{{page.title}}</h1>
             <h4>{{page.contributors}}</h4>
             <p>{{page.description }}</p>
-            
-            {% if page.build %}
-                <div class="webgl-content">
-                  <div id="gameContainer" style="width: 960px; height: 600px"></div>
-                  <div class="footer">
-                    <div class="webgl-logo"></div>
-                    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-                    <div class="title">{{ page.title }} {% if page.source %}- <a id="sourcelink" class="btn btn-primary wrap" href="{{ page.source }}" role="button">Download Source</a>{% endif %}</div>
-                  </div>
-              </div>
-            {% endif %}
 
             {{ content }}
         </div>
         {% include sitescripts.html %}
     </body>
-
-    <script>
-        function playInBrowser(){
-            var sourcelink = document.getElementById('sourcelink');
-            var content = document.getElementById('contentdiv').innerHTML = '';
-        }
-    </script>
 
 </html>
