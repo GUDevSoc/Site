@@ -2,3 +2,7 @@ resources: /resources
 events: /events
 contact: /contact
 home: {{site.baseurl}}
+gamejam:
+    url: /gamejam
+    march2017: /gamejam/march2017
+    october2017: /gamejam/october2017
