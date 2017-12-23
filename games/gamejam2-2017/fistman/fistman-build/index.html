@@ -1,0 +1,20 @@
+---
+layout: unityplayer
+title: Fist Man
+contributors: Toran, Levie, Ellison, Faiz, Mario
+description: The Adventures of The FistMan. Created in Unity for the GUDEV GameJam in October 2017.
+---
+
+
+  <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BUILD.json", {onProgress: UnityProgress});
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Fistman</div>
+      </div>
+    </div>
