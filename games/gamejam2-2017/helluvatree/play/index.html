@@ -4,15 +4,15 @@ title: Helluva Tree
 contributors: Adam O'Neill, Mary Li, Jonathan Lim
 description: Take control of a monster seedling hungry for power. The human race has been polluting the earth for too long; time to destroy! By destroying everything around you, you will gain evil energy and grow up into a HELLUVA TREE! Created in Unity for the GUDEV GameJam in October 2017.
 ---
-
-<div class="row">
-    <div class="controls">
-        <h2> Controls </h2>
-        <ul>
-            <li>Arrow Keys/WASD - Move</li>
-            <li>Space Bar - Jump</li>
-            <li>Enter - Shoot</li>
-        </ul>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build.json", {onProgress: UnityProgress});
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Monster Power up</div>
+      </div>
     </div>
-</div>
-
