@@ -1,0 +1,19 @@
+---
+layout: unityplayer
+title: Cool Fox Guys
+contributors: Nicola Mari, Stefano Mercadante, Lukas Knapek, Francisco Macia
+description: Live an incredible underwater platformer adventure featuring the Fox Guys (although one of them is a Wolf). Use their unique powers to complete the level full of deadly traps. Created in Unity for the GUDEV GameJam in October 2017.
+---
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BUILD.json", {onProgress: UnityProgress});
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">The Cool Fox Guys</div>
+      </div>
+    </div>
