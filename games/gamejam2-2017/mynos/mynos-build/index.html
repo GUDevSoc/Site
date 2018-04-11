@@ -9,8 +9,10 @@ description: 3d side-scrolling platformer created in Unity for the GUDEV GameJam
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BUILD.json");
     </script>
     <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    <a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
     <h3>Controls</h3>
-    <p>Arrow Keys/W,A,S,D - Move Up, Left, Down, Right
-      Space - Jump
-      Right Ctrl - Attack
-    </p>
+    <ul>
+      <li>Arrow Keys/W,A,S,D - Move Up, Left, Down, Right</li>
+      <li>Space - Jump</li>
+      <li>Right Ctrl - Attack</li>
+    </ul>

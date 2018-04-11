@@ -1,0 +1,18 @@
+---
+layout: unityplayer
+title: Fireballz in SPACE
+contributors: Jonathan Lim
+description: Blow on your device microphone to power up your fireballz! (Requires mic to play) Created in Unity for GUDEV GameJam 3 in March 2018.
+---
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/V0g_7_increasedEnergyDepletion.json");
+</script>
+<div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+<a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
+<h3>Controls</h3>
+<ul>
+  <li>Up Arrow/Down Arrow - Move up and down</li>
+<li>SCREAM/BLOW INTO MICROPHONE - FIRE BULLETS</li>
+</ul>
+<p>Keep an eye on the top right bar for how long until you can fire your next volley of bullets!</p>

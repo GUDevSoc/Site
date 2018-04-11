@@ -9,8 +9,10 @@ description: Take control of a monster seedling hungry for power. The human race
   var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build.json");
 </script>
 <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+<a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
 <h3>Controls</h3>
-<p>Arrows Left + Right, A + D - Move left + Move right
-  Space - Jump
-  Enter - Shoot
+<ul>
+  <li>Arrows Left + Right, A + D - Move left + Move right</li>
+  <li>Space - Jump</li>
+  <li>Enter - Shoot</li>
 </p>
