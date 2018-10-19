@@ -1,0 +1,19 @@
+---
+layout: unityplayer
+
+title: Star Wars Rouge Squadron II
+contributors: "JoeSubbi", "Murphy"
+description: Star Wars Rogue Squadron II: Rogue Leader (also known as Star Wars Rogue Leader: Rogue Squadron II) is an action game co-developed by Factor 5 and LucasArts and is the second of three games in the Rogue Squadron series, it was published by LucasArts and released as a launch title for the GameCube in North American on November 9, 2001 and Europe on May 3, 2002. Created in Unity for GUDEV GameJam 4 in October 2018.
+---
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGLBuild.json");
+</script>
+<div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+<a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
+<h3>Controls</h3>
+<ul>
+<li>A, D - steer</li>
+<li>W, S - forward/backwards</li>
+<li>Q, E - roll??</li>
+</ul>

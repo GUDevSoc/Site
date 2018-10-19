@@ -1,0 +1,23 @@
+---
+layout: unityplayer
+title: RoboLoco
+contributors: Piotrus Watson, Tom Whitehouse, Francisco Macia Valera
+description: IT'S LIKE SMASH BROS BUT WITH WALL-Es! EAT UP SALVAGE AND SPIT IT OUT AT OTHER ROBOTS TO KNOCK THEM AROUND! (Was made by judges and not entered formally, although it definitely wouldn't have won anyway) Created in Unity for GUDEV GameJam 3 in March 2018.
+---
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGLBuild.json");
+</script>
+<div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+<a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
+<h3>Controls</h3>
+<h4>Plug in controllers for this game - it won't work otherwise</h4>
+<ul>
+<li>Right Analogue Stick - Move Robot</li>
+<li>A - Jump</li>
+<li>Left Trigger - Eat scrap</li>
+<li>Left Bumper (Hold down) - Compress all current scrap into heavy box</li>
+<li>Right Trigger - Fire current scrap</li>
+</ul>
+<p> Two player game - eat and shoot scrap or boxes to knock your opponent into
+  obstacles and deadly killboxes!</p>

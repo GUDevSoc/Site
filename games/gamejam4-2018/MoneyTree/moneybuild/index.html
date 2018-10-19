@@ -1,0 +1,17 @@
+---
+layout: unityplayer
+title: Money Tree
+contributors: Kelton Holsen, Alice Ravier, Paolo Jovon, Denny's Pizza, Louie Atkins-Turkish
+description: Just a simple clicker game in which you grow a tree that makes it rain money! Happy, wholesome fun! Created in Unity for GUDEV GameJam 4 in October 2018.
+---
+
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json");
+</script>
+<div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+<a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
+<h3>Controls</h3>
+<ul>
+  Click on things to interact with them! Pay careful attention to what you're clicking on - if it becomes greyer, you might be able to click elsewhere for exciting other things to happen!
+</ul>
