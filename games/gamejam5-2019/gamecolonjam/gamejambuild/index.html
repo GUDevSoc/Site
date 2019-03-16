@@ -1,0 +1,17 @@
+---
+layout: unityplayer
+title: Game: Jam!
+contributors: Team Computer Virus
+description: Twins Lua and Leo have differing opinions on which jam to make. Created in Unity for the GUDEV GameJam in February 2019.
+---
+    <script src="Build/UnityLoader.js"></script>
+	<script src="TemplateData/UnityProgress.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BUILD.json", {onProgress: UnityProgress});
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+      <a class="btn btn-primary wrap center" onclick="gameInstance.SetFullscreen(1)" role="button">Fullscreen</a>
+    </div>
+	
+	
