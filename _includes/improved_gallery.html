@@ -1,0 +1,7 @@
+{% for image in include.images %}
+  <div class="media-margin col-lg-{{include.colspan}} thumb gallery-thumbnail">
+    <a class="thumbnail" data-fancybox="gallery" data-caption="{{image.caption}}" href="{{ image.path }}">
+        <img src="{{ image.path }}" alt="Gallery Image"/>
+    </a>
+  </div>
+{% endfor %}

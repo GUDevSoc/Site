@@ -37,6 +37,47 @@ img {
   height: 300px;
 }
 
+.gallery-thumbnail img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.singe-image-thumbnail img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.media-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.media-margin a {
+  margin-bottom: 0px;
+}
+
+.figure-single-image {
+  display: flex;
+  justify-content: center;
+}
+
+.figure-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure-single-image img {
+  margin-bottom: 0;
+}
+
+.figure-caption-text {
+  font-size: 14px;
+}
+
 .icon-image {
   width: 32px;
   height: 32px;
