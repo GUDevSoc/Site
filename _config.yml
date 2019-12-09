@@ -31,6 +31,10 @@ collections:
     output: true
     permalink: /games/:path/
 
+  gamedev:
+    output: true
+    permalink: /gamedev/:path/
+
 defaults:
   - scope:
       path: ""

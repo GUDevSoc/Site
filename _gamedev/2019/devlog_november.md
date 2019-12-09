@@ -1,59 +1,61 @@
 ---
 layout: base
-permalink: /devlog/november2019/index.html
+
+title: Developer Log - November 2019
+description: The very first developer log for our year-long game!
 
 alien_concept_images:
-- path: /devlog/november2019/img/alien_concepts.png
+- path: /static/images/devlog_nov2019/alien_concepts.png
   caption: Friends by Frettini - Nicolae
-- path: /devlog/november2019/img/alien_concept.png
+- path: /static/images/devlog_nov2019/alien_concept.png
   caption: The concept art of the alien by Oaster | Owen
-- path: /devlog/november2019/img/the_thing_concept.jpg
+- path: /static/images/devlog_nov2019/the_thing_concept.jpg
   caption: octofriend by sworddance
-- path: /devlog/november2019/img/alien_crawl.gif
+- path: /static/images/devlog_nov2019/alien_crawl.gif
   caption: lil crawl by sworddance
 
 other_concept_images:
-- path: /devlog/november2019/img/fov_concept.png
+- path: /static/images/devlog_nov2019/fov_concept.png
   caption: FOV concept by Patsonical | Patryk Kaczmarczyk
-- path: /devlog/november2019/img/corridor_concept.png
+- path: /static/images/devlog_nov2019/corridor_concept.png
   caption: Corridor concept by amadeuszbx
-- path: /devlog/november2019/img/room_concept.png
+- path: /static/images/devlog_nov2019/room_concept.png
   caption: 3D top down view concept by amadeuszbx
-- path: /devlog/november2019/img/space_guy_concept.png
+- path: /static/images/devlog_nov2019/space_guy_concept.png
   caption: Security officer concepts by Frettini - Nicolae
 
 fov_images:
-- path: /devlog/november2019/img/fov_whiteboard.jpg
+- path: /static/images/devlog_nov2019/fov_whiteboard.jpg
   caption: Turns out you actually need math for gamedev sometimes
-- path: /devlog/november2019/img/fov_ingame.jpg
+- path: /static/images/devlog_nov2019/fov_ingame.jpg
   caption: The initial version of FOV in-game. Notice how the vision is blocked by solid objects
 
 eel_images:
-- path: /devlog/november2019/img/eel_work.jpg
+- path: /static/images/devlog_nov2019/eel_work.jpg
   caption: One of our artists hard at work on a more detailed concept art for the alien
-- path: /devlog/november2019/img/eel_blueprint.png
+- path: /static/images/devlog_nov2019/eel_blueprint.png
   caption: The blueprint which will be turned into a 3D model soon
-- path: /devlog/november2019/img/eel_model.jpg
+- path: /static/images/devlog_nov2019/eel_model.jpg
   caption: Eel model in the process of creation. You can also see the initial sketch of our security officers
-- path: /devlog/november2019/img/eeeeel.png
+- path: /static/images/devlog_nov2019/eeeeel.png
   caption: Another use for our eel blueprint by KinRyuu - Tom
 
 robot_images:
-- path: /devlog/november2019/img/robot_sketch.jpg
+- path: /static/images/devlog_nov2019/robot_sketch.jpg
   caption: The initial sketch of our mechanical security officers
-- path: /devlog/november2019/img/robot_blueprint.jpg
+- path: /static/images/devlog_nov2019/robot_blueprint.jpg
   caption: The sketch being made into a blueprint in Inkscape
 
 npc_images:
-- path: /devlog/november2019/img/npc_concepts.jpg
+- path: /static/images/devlog_nov2019/npc_concepts.jpg
   caption: Initial concepts of NPCs by Frettini - Nicolae
-- path: /devlog/november2019/img/npc_blueprint.jpg
+- path: /static/images/devlog_nov2019/npc_blueprint.jpg
   caption: NPC base blueprint
-- path: /devlog/november2019/img/npc_model.png
+- path: /static/images/devlog_nov2019/npc_model.png
   caption: The provisional NPC model, T-posing menacingly by Oaster | Owen
 
 ---
-# GUDEV DevLog - November 2019
+# {{ page.title }}
 _At the beginning, there was an idea._
 
 The thought of creating a game that all members of our society would work on for the whole of academic year has been around for quite some time. This year, we finally decided to give it a proper try.
@@ -72,7 +74,7 @@ We dedicated our first two sessions to brainstorming game ideas and then further
 * Twist
 * ...
 
-{% include image.html url="/devlog/november2019/img/consequences.png" caption="OC GUDEV 2019, donut steel" %}
+{% include image.html url="/static/images/devlog_nov2019/consequences.png" caption="OC GUDEV 2019, donut steel" %}
 
 The result? A bunch of weird game ideas such as:
 
@@ -88,7 +90,7 @@ Not much to go initially, but it was a start.
 
 Our second session was all about refining this basic idea. We came up with a number of possibilities and mechanics, trying to reach some sort of consensus. Turns out getting people to express their ideas and then merge them together in a way that everyone is (kinda) happy with is hard!
 
-{% include image.html url="/devlog/november2019/img/game_concept.jpg" caption="Thinking up ideas is admittedly the easier part of game development" %}
+{% include image.html url="/static/images/devlog_nov2019/game_concept.jpg" caption="Thinking up ideas is admittedly the easier part of game development" %}
 
 After a long couple of hours, we established a few key features of the game and put together a very basic design document. Since it's still very much a work in progress, let me give you the general outline for now:
 
@@ -100,7 +102,7 @@ As a security officer, the player must track down and eliminate the alien threat
 
 An academic year is not a whole lot of time to develop a full-fledged game, especially when accounting for holidays and coursework deadlines. We soon realised that having a plan in place would help us track our progress and see how much time we have left. And so we came up with a very rough timeline:
 
-{% include image.html url="/devlog/november2019/img/game-timeline.jpg" caption="Something tells me that three months from now we're gonna look back at this and laugh" %}
+{% include image.html url="/static/images/devlog_nov2019/game-timeline.jpg" caption="Something tells me that three months from now we're gonna look back at this and laugh" %}
 
 We were ready to get started!
 
@@ -120,7 +122,7 @@ We started our development proper around the middle of November. During our firs
 
 And off we went!
 
-{% include image.html url="/devlog/november2019/img/dev_session.jpg" caption="Our first dev session" %}
+{% include image.html url="/static/images/devlog_nov2019/dev_session.jpg" caption="Our first dev session" %}
 
 ### Character Squad Progress
 Our coding team did quite a lot of work during the few November dev sessions! By now we have basic character controls in place as well as a _nearly-top-down-but-not-quite_ camera following the player. 
@@ -134,7 +136,7 @@ The team then took a stab at creating one of the core mechanics in our game - th
 All in all, a great job by our programmers who are now working on win / lose conditions, interaction with the ship's environment and rudimentary AI for NPCs.
 
 ### Level Squad Progress
-Have you noticed that beatiful room in the video above? That's the work of our level squad! Using Unity Snaps asset pack, they created a basic room with several objects that can be used to test a lot of mechanics we have in mind.
+Have you noticed that beautiful room in the video above? That's the work of our level squad! Using Unity Snaps asset pack, they created a basic room with several objects that can be used to test a lot of mechanics we have in mind.
 
 {% include video.html url="https://i.imgur.com/q3sTrdW.mp4" caption="Our first room of many" %}
 
@@ -143,7 +145,7 @@ Going forward, this squad will be tasked with building the rest of the ship in a
 ### Art Squad Progress
 Last but definitely not least, the art squad has the difficult task of manifesting our wild ideas in 2D/3D form. In coming up with the visual theme of the game, they decided to put together an inspiration board first.
 
-{% include image.html url="/devlog/november2019/img/vision_board.jpg" caption="Good artists copy, great artists steal" %}
+{% include image.html url="/static/images/devlog_nov2019/vision_board.jpg" caption="Good artists copy, great artists steal" %}
 
 It was interesting to see how our initial ideas changed and evolved over time. Take the alien, for example. We started out thinking it should be some kind of octopus. But that body type would be difficult to rig and animate. And so we changed our mind and decided to go with the "eel-friend" concept. It still looks positively alien and will be much easier to work with.
 
