@@ -15,11 +15,11 @@ alien_concept_images:
   caption: lil crawl by sworddance
 
 other_concept_images:
-- path: /static/images/devlog_nov2019/fov_concept.png
+- path: /static/images/devlog_nov2019/fov_concept.jpg
   caption: FOV concept by Patsonical | Patryk Kaczmarczyk
-- path: /static/images/devlog_nov2019/corridor_concept.png
+- path: /static/images/devlog_nov2019/corridor_concept.jpg
   caption: Corridor concept by amadeuszbx
-- path: /static/images/devlog_nov2019/room_concept.png
+- path: /static/images/devlog_nov2019/room_concept.jpg
   caption: 3D top down view concept by amadeuszbx
 - path: /static/images/devlog_nov2019/space_guy_concept.png
   caption: Security officer concepts by Frettini - Nicolae
