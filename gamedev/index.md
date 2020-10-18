@@ -4,6 +4,8 @@ layout: base
 
 # First Contact - GUDEV's Year-long Game
 
+## (No longer in development)
+
 ## What?
 Our society has decided to create a complete game from scratch! The title comes from the fact that our members will be working on the game for the entire academic year. Think of it as an extremely long GameJam without the sleep deprivation.
 
