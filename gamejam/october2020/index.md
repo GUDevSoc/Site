@@ -24,7 +24,7 @@ The theme for this game jam was randomly picked from a selection live and ended 
 - Staying away from infected people in a pandemic
 - A turn based game where you needed to plan moves far away into the future
 
-As always, we had our challenges which were part of the game rating process this year. In particular people really incorporated the spooky challenge into their games (the halloween urge was already to strong to resist!). To see what other challenges were included check out the [intro slides](https://docs.google.com/presentation/d/1AESdyh9cVzdZYOOTWjFUw1glkwq9GxFrUu8WdRxg1QE/edit?usp=sharing).
+As always, we had our challenges which were part of the game rating process this year. In particular people really incorporated the spooky challenge into their games (the halloween urge was too strong to resist!). To see what other challenges were included check out the [intro slides](https://docs.google.com/presentation/d/1AESdyh9cVzdZYOOTWjFUw1glkwq9GxFrUu8WdRxg1QE/edit?usp=sharing).
 
 Finally, we shook things up further by having people rate the games instead of having judges. This was super successful with 279 ratings total and every game being highlighted for aspects it was strong in such as music, art, gameplay, challenges, and theme. Check out all the detailed ratings and results at the [itch.io game jam page](https://itch.io/jam/game-jam-infinity/results). 
 
