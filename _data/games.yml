@@ -1,0 +1,25 @@
+- name: Game Jam 8
+  date: October 2020
+  theme: Far Away
+  link: october2020
+  games:
+    - name: GalactiKat
+      link: https://musical-spearman.itch.io/galactikat
+      winner: true
+    - name: Into The Unknown
+      link: https://jazzycasey.itch.io/into-the-unknown
+    - name: House of a Thousand Hallways
+      link: https://oogieflip98.itch.io/the-house-of-a-thousand-hallways
+- name: Game Jam 7
+  date: February 2020
+  theme: Oath
+  games:
+    - name: Dalai Ladma
+      link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569875
+      winner: true
+    - name: OathBreaker
+      link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569863
+      winner: true
+    - name: The Oathkeepers
+      link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569863
+      winner: true
