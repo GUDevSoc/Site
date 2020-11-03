@@ -70,28 +70,28 @@
     - link: https://itch.io/jam/gudev-jam-6/rate/490025
       name: Crush Depth
     - link: https://itch.io/jam/gudev-jam-6/rate/488287
-      name: <REDACTED>
+      name: REDACTED
 
 - name: Game Jam 5
   date: February 2019
   link: "/gamejam/february2019/"
   theme: Twins
   games:
-    - link: /games/gamejam5-2019/twobeeornottwobee
+    - link: https://gudev.itch.io/two-bee-or-not-two-bee
       name: Two Bee Or Not Two Bee
       winner: True
-    - link: /games/gamejam5-2019/twinparadox
+    - link: https://gudev.itch.io/twin-paradox
       name: Twin Paradox
       winner: True
-    - link: /games/gamejam5-2019/slimes
+    - link: https://gudev.itch.io/slimes
       name: Slimes
-    - link: /games/gamejam5-2019/astral
+    - link: https://gudev.itch.io/astral
       name: Astral
-    - link: /games/gamejam5-2019/spiritusgeminae
+    - link: https://gudev.itch.io/spiritus-geminae
       name: SPRITUS GEMINAE
-    - link: /games/gamejam5-2019/gamecolonjam
+    - link: https://gudev.itch.io/game-jam
       name: "Game: Jam!"
-    - link: /games/gamejam5-2019/ttrpg
+    - link: https://drive.google.com/drive/folders/1Ow6Ui1S7l2YHiChOf-sl7gjkMNd15NMB?usp=sharing
       name: Untitled TTRPG Submission
 
 - name: Game Jam 4
@@ -99,26 +99,26 @@
   link: "/gamejam/october2018/"
   theme: Deceit
   games:
-    - link: /games/gamejam4-2018/CUBEGAME
+    - link: https://gudev.itch.io/cub
       name: CUB
       winner: True
-    - link: /games/gamejam4-2018/FUNGUY
+    - link: https://gudev.itch.io/funguy
       name: FunGuy
       winner: True
-    - link: /games/gamejam4-2018/SUNRUN
+    - link: https://gudev.itch.io/sunrun
       name: SunRun
       winner: True
-    - link: /games/gamejam4-2018/TaleDeceit
+    - link: https://gudev.itch.io/a-trip-of-deceit
       name: A Trip of Deceit
-    - link: /games/gamejam4-2018/MoneyTree
+    - link: https://gudev.itch.io/money-tree
       name: Money Tree
-    - link: /games/gamejam4-2018/ParkourPiggies
+    - link: https://gudev.itch.io/parkour-piggies
       name: Parkour Piggies
-    - link: /games/gamejam4-2018/Redimere
+    - link: https://gudev.itch.io/redimere
       name: Redimere
-    - link: /games/gamejam4-2018/GrannyGame
+    - link: https://gudev.itch.io/grannygame
       name: Outrun, but bad
-    - link: /games/gamejam4-2018/SpaceGame
+    - link: https://gudev.itch.io/overly-complicated-spaceship-simulator-2018
       name: Overly Complicated Spaceship Simulator (2018)
 
 - name: Game Jam 3
@@ -126,23 +126,23 @@
   link: "/gamejam/march2018/"
   theme: Salvage
   games:
-    - link: gamejam3-2018/FLESHFORGE
+    - link: https://gudev.itch.io/fleshforge
       name: Fleshforge
       winner: True
-    - link: gamejam3-2018/OFCLOUDSANDPLANES
+    - link: https://gudev.itch.io/of-clouds-and-planes
       name: Of Clouds And Planes
       winner: True
-    - link: gamejam3-2018/OCEAN
+    - link: https://gudev.itch.io/ocean
       name: Ocean
-    - link: gamejam3-2018/CLAWGAME
+    - link: https://gudev.itch.io/claw-game
       name: Claw Game
-    - link: gamejam3-2018/SCABBAGE
+    - link: https://gudev.itch.io/scabbage
       name: Scabbage
-    - link: gamejam3-2018/LONELYHEARTS
+    - link: https://gudev.itch.io/lonely-hearts
       name: Lonely Hearts
-    - link: gamejam3-2018/FIREBALLZINSPACE
+    - link: https://gudev.itch.io/fireballz-in-space
       name: Fireballz in SPACE
-    - link: gamejam3-2018/ROBOLOCO
+    - link: https://gudev.itch.io/roboloco
       name: RoboLoco
 
 - name: Game Jam 2
@@ -150,28 +150,27 @@
   link: "/gamejam/october2017/"
   theme: You Are The Monster/Resurrection/Power It Up
   games:
-    - link: gamejam2-2017/cycleofdeath
+    - link: https://gudev.itch.io/cycle-of-death
       name: Cycle of Death
       winner: True
-    - link: gamejam2-2017/coolfoxguys
+    - link: https://gudev.itch.io/the-cool-fox-guys
       name: The Cool Fox Guys
-    - link: gamejam2-2017/fistman/
+    - link: https://gudev.itch.io/fistman
       name: FistMan
-    - link: gamejam2-2017/helluvatree
+    - link: https://gudev.itch.io/helluva-tree
       name: Helluva Tree
-    - link: gamejam2-2017/mynos
+    - link: https://gudev.itch.io/mynos
       name: Mynos
-    - link: assetjam-2017/
 
 - name: Game Jam
   date: March 2017
   link: "/gamejam/march2017/"
   theme: Inversion
   games:
-    - link: gamejam-2017/coolguy/
+    - link: https://gudev.itch.io/coolguy-in-inversion-land
       name: Coolguy In Inversion Land
       winner: True
-    - link: gamejam-2017/ufoshriekingcthulu/
+    - link: https://gudev.itch.io/ufo-shrieking-cthulu
       name: UFO Shrieking Cthulu
-    - link: gamejam-2017/explodingpizza/
+    - link: https://gudev.itch.io/exploding-pizza
       name: Exploding Pizza
