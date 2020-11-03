@@ -1,25 +1,177 @@
 - name: Game Jam 8
   date: October 2020
+  link: "/gamejam/october2020/"
   theme: Far Away
-  link: october2020
   games:
-    - name: GalactiKat
-      link: https://musical-spearman.itch.io/galactikat
-      winner: true
-    - name: Into The Unknown
-      link: https://jazzycasey.itch.io/into-the-unknown
-    - name: House of a Thousand Hallways
-      link: https://oogieflip98.itch.io/the-house-of-a-thousand-hallways
+    - link: https://musical-spearman.itch.io/galactikat
+      name: GalactiKat
+      winner: True
+    - link: https://jazzycasey.itch.io/into-the-unknown
+      name: Into The Unknown
+    - link: https://oogieflip98.itch.io/the-house-of-a-thousand-hallways
+      name: House of a Thousand Hallways
+    - link: https://aliceravier.itch.io/glitter-wars
+      name: Glitter Wars
+    - link: https://ashnazg.itch.io/snake-escape
+      name: Snake Escape
+    - link: https://discountquagsire.itch.io/protect-the-vip
+      name: Protect The VIP
+    - link: https://hastai.itch.io/mullet-monkey-the-glittery-banana
+      name: Mullet Monkey & the Glittery Banana
+    - link: https://toastykitsune.itch.io/far-from-god2
+      name: Far From God 2
+    - link: https://rangeryote.itch.io/social-distancer
+      name: Social Distancer
+    - link: https://laithlie.itch.io/star-dogged-moon
+      name: Star-Dogged Moon
+    - link: https://gdcodes.itch.io/nightmarish
+      name: Nightmarish
+    - link: https://cubermanny.itch.io/pong-distance
+      name: Pong Distance
+    - link: https://oaster2000.itch.io/janky-doom
+      name: Janky Doom
+
 - name: Game Jam 7
-  date: February 2020
+  link: "/gamejam/february2020/"
   theme: Oath
+  date: February 2020
   games:
-    - name: Dalai Ladma
-      link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569875
-      winner: true
-    - name: OathBreaker
-      link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569863
-      winner: true
-    - name: The Oathkeepers
-      link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569863
-      winner: true
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569875
+      name: Dalai Ladma
+      winner: True
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569863
+      name: OathBreaker
+      winner: True
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569831
+      name: The Oathkeepers
+      winner: True
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569885
+      name: Guardian
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569867
+      name: The Miracle
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569865
+      name: Honour Bound
+    - link: https://itch.io/jam/game-jam-7-make-games-not-love/rate/569859
+      name: Sworn Testimony
+
+- name: Game Jam 6
+  date: September 2019
+  link: "/gamejam/september2019/"
+  theme: Damage Control
+  games:
+    - link: https://itch.io/jam/gudev-jam-6/rate/490004
+      name: Criticality
+      winner: True
+    - link: https://itch.io/jam/gudev-jam-6/rate/489975
+      name: "#PleaseDontTweet"
+      winner: True
+    - link: https://itch.io/jam/gudev-jam-6/rate/490010
+      name: Damage Control
+    - link: https://itch.io/jam/gudev-jam-6/rate/490025
+      name: Crush Depth
+    - link: https://itch.io/jam/gudev-jam-6/rate/488287
+      name: <REDACTED>
+
+- name: Game Jam 5
+  date: February 2019
+  link: "/gamejam/february2019/"
+  theme: Twins
+  games:
+    - link: /games/gamejam5-2019/twobeeornottwobee
+      name: Two Bee Or Not Two Bee
+      winner: True
+    - link: /games/gamejam5-2019/twinparadox
+      name: Twin Paradox
+      winner: True
+    - link: /games/gamejam5-2019/slimes
+      name: Slimes
+    - link: /games/gamejam5-2019/astral
+      name: Astral
+    - link: /games/gamejam5-2019/spiritusgeminae
+      name: SPRITUS GEMINAE
+    - link: /games/gamejam5-2019/gamecolonjam
+      name: "Game: Jam!"
+    - link: /games/gamejam5-2019/ttrpg
+      name: Untitled TTRPG Submission
+
+- name: Game Jam 4
+  date: October 2018
+  link: "/gamejam/october2018/"
+  theme: Deceit
+  games:
+    - link: /games/gamejam4-2018/CUBEGAME
+      name: CUB
+      winner: True
+    - link: /games/gamejam4-2018/FUNGUY
+      name: FunGuy
+      winner: True
+    - link: /games/gamejam4-2018/SUNRUN
+      name: SunRun
+      winner: True
+    - link: /games/gamejam4-2018/TaleDeceit
+      name: A Trip of Deceit
+    - link: /games/gamejam4-2018/MoneyTree
+      name: Money Tree
+    - link: /games/gamejam4-2018/ParkourPiggies
+      name: Parkour Piggies
+    - link: /games/gamejam4-2018/Redimere
+      name: Redimere
+    - link: /games/gamejam4-2018/GrannyGame
+      name: Outrun, but bad
+    - link: /games/gamejam4-2018/SpaceGame
+      name: Overly Complicated Spaceship Simulator (2018)
+
+- name: Game Jam 3
+  date: March 2018
+  link: "/gamejam/march2018/"
+  theme: Salvage
+  games:
+    - link: gamejam3-2018/FLESHFORGE
+      name: Fleshforge
+      winner: True
+    - link: gamejam3-2018/OFCLOUDSANDPLANES
+      name: Of Clouds And Planes
+      winner: True
+    - link: gamejam3-2018/OCEAN
+      name: Ocean
+    - link: gamejam3-2018/CLAWGAME
+      name: Claw Game
+    - link: gamejam3-2018/SCABBAGE
+      name: Scabbage
+    - link: gamejam3-2018/LONELYHEARTS
+      name: Lonely Hearts
+    - link: gamejam3-2018/FIREBALLZINSPACE
+      name: Fireballz in SPACE
+    - link: gamejam3-2018/ROBOLOCO
+      name: RoboLoco
+
+- name: Game Jam 2
+  date: October 2017
+  link: "/gamejam/october2017/"
+  theme: You Are The Monster/Resurrection/Power It Up
+  games:
+    - link: gamejam2-2017/cycleofdeath
+      name: Cycle of Death
+      winner: True
+    - link: gamejam2-2017/coolfoxguys
+      name: The Cool Fox Guys
+    - link: gamejam2-2017/fistman/
+      name: FistMan
+    - link: gamejam2-2017/helluvatree
+      name: Helluva Tree
+    - link: gamejam2-2017/mynos
+      name: Mynos
+    - link: assetjam-2017/
+
+- name: Game Jam
+  date: March 2017
+  link: "/gamejam/march2017/"
+  theme: Inversion
+  games:
+    - link: gamejam-2017/coolguy/
+      name: Coolguy In Inversion Land
+      winner: True
+    - link: gamejam-2017/ufoshriekingcthulu/
+      name: UFO Shrieking Cthulu
+    - link: gamejam-2017/explodingpizza/
+      name: Exploding Pizza
