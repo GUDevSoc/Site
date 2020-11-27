@@ -20,6 +20,6 @@ All other folders:
 - **pages** :: contains all pages as html that will make up the site (one html page for each of its respective urls)
 - **static** :: contains all static content like css/js/images/fonts etc.
 
-## Other
+## Help make this readme better!
 
 If you believe that other information should be here or that you didn't quite understand some part of the code then feel free to include it or suggest that it should be included in this document. :)
