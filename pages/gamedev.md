@@ -1,5 +1,6 @@
 ---
 layout: base
+permalink: /gamedev/
 ---
 
 # First Contact - GUDEV's Year-long Game
