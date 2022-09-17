@@ -22,16 +22,16 @@ All other folders:
 
 ## building locally on debian/ubuntu  
 
-'''
+```
 sudo apt install ruby ruby-dev gem
 sudo gem install jekyll bundler
 git clone https"//github.com/GUDevSoc/Site.git
 cd Site
 bundle install
 bundle exec jekyll serve
-'''
+```
 
-then open a browser and goto localhost:4000
+Then open a browser and goto: localhost:4000
 
 ## Help make this readme better!
 
