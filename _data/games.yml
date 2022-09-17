@@ -1,3 +1,56 @@
+
+- name: Super Game Jam - Anniversary Edition
+  date: March 2022
+  link: "https://itch.io/jam/super-game-jam-gudev"
+  theme: Fragmentation
+  games:
+    - link: https://oaster2000.itch.io/party-problems
+      name: Party Problems
+
+- name: Game Jam 11
+  date: February 2022
+  link: "https://itch.io/jam/game-jam-xi"
+  theme: Enclosed
+  games:
+    - link: https://joesubbi.itch.io/balls-and-mines
+      name: Balls and Mines
+    - link: https://oaster2000.itch.io/the-island
+      name: The Island
+
+- name: Game Jam 10
+  date: October 2021
+  link: "https://itch.io/jam/game-jam-x"
+  theme: No Space
+  games:
+    - link: https://thetotemguy.itch.io/nth-space
+      name: Nth Space
+      winner: True
+    - link: https://rangeryote.itch.io/dreamscanner-initiative
+      name: Dreamscanner Initiative
+    - link: https://oaster2000.itch.io/survival-insanity
+      name: Survival Insanity
+    - link: https://noamzeise.itch.io/hard-drive-homicide
+      name: Hard Drive Homicide
+    - link: https://ssharkk.itch.io/pac
+      name: PAC's Revenge
+    - link: https://lduan20.itch.io/nospacesafe
+      name: NoSpaceSafe
+
+- name: Game Jam 9
+  date: February 2021
+  link: "https://itch.io/jam/game-jam-9"
+  theme: Freedom
+  games:
+    - link: https://frettini.itch.io/selfcare
+      name: selfCARE
+      winner: True
+    - link: https://ashnazg.itch.io/the-wright-time
+      name: The Wright Time
+    - link: https://cubermanny.itch.io/free-the-dobbles
+      name: Free The Dobbles
+    - link: https://oaster2000.itch.io/roguelike-adventure
+      name: Roguelike Adventure
+      
 - name: Game Jam 8
   date: October 2020
   link: "/gamejam/october2020/"
