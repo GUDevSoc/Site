@@ -25,7 +25,7 @@ All other folders:
 ```
 sudo apt install ruby ruby-dev gem
 sudo gem install jekyll bundler
-git clone https"//github.com/GUDevSoc/Site.git
+git clone https://github.com/GUDevSoc/Site.git
 cd Site
 bundle install
 bundle exec jekyll serve
